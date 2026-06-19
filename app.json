@@ -22,6 +22,7 @@
       "buildNumber": "1",
       "infoPlist": {
         "CFBundleDisplayName": "Sillera World",
+        "NSHumanReadableCopyright": "© Silleraviajera",
         "CFBundleLocalizations": [
           "es",
           "en"
