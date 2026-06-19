@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Sillera World",
+    "slug": "silleraviajera-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "silleraviajera-app",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "primaryColor": "#d2552a",
+    "description": "Información práctica para viajar con movilidad reducida: hoteles accesibles verificados, guías por destino, taxis adaptados, viajes en grupo y consejos útiles. Practical information for travelling with reduced mobility.",
+    "githubUrl": "https://silleraviajera.com",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fdf9ee"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.silleraviajera.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleDisplayName": "Sillera World",
+        "CFBundleLocalizations": [
+          "es",
+          "en"
+        ],
+        "CFBundleDevelopmentRegion": "es",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.silleraviajera.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#fdf9ee"
+      },
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "locales": {
+      "es": "./assets/locales/es.json",
+      "en": "./assets/locales/en.json"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "contactEmail": "info@silleraviajera.com",
+      "eas": {
+        "projectId": "77b84593-d19d-428d-ac93-68a1372aecb5"
+      }
+    },
+    "owner": "adry01"
+  }
+}
